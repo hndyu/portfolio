@@ -18,10 +18,11 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <!-- Google Tag Manager -->
-<script>
+<script is:inline>
 	(function (w, d, s, l, i) {
 		w[l] = w[l] || [];
 		w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+		// eslint-disable-next-line no-var
 		var f = d.getElementsByTagName(s)[0],
 			j = d.createElement(s),
 			dl = l != "dataLayer" ? "&l=" + l : "";
