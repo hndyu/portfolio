@@ -1,7 +1,8 @@
 ---
 title: "ポートフォリオサイト構築の技術選定"
 description: "ポートフォリオサイトを公開するまでの技術選定プロセスを詳細に解説。エディタ、ホスティング、フレームワークの選定理由や、採用を見送った技術についても言及します。"
-pubDate: "2025/4/21"
+pubDate: "2025/4/23"
+updatedDate: "2025/4/24"
 heroImage: "/2025-4-23-site-publication-hero-image.avif"
 ---
 
@@ -31,6 +32,10 @@ Cursor TabやAgent機能の無料プラン制限を使い切った場合は、�
 [Vercel](https://vercel.com/)も検討しましたが、[Hobbyプランでは商用利用が不可](https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage)であるため今回は見送りました。すぐに収益化する予定はありませんが、制限がない方が安心です。
 
 [Netlify](https://www.netlify.com/)は、Freeプランでは日本リージョンのCDNが利用できず、サイトの表示速度が遅くなるという情報があったため同じく見送りました。
+
+### ランタイム
+
+**[Node.js](https://nodejs.org/ja)を採用しました。** 競合も出てきてはいますが、安定性を重視して手堅い選択をしました。
 
 ### フレームワーク
 
@@ -310,6 +315,18 @@ export default defineConfig([
 
 ## 採用を見送った技術
 
+### Deno
+
+以前[Slackワークフロー](https://docs.slack.dev/workflows/)のカスタムステップを開発する際に使ったことがありますが、標準ライブラリが開発中だった覚えがあり、まだ本格採用するには早いかもしれないという印象を受けていたので見送りました。
+
+開発を始めてから気づきましたが、[2024年10月にDeno 2がリリースされ](https://deno.com/blog/v2.0)ておりAstroも公式にサポートされているようなので検討してもよかったかもしれません。
+
+### Bun
+
+Denoがnpm採用にかじを切ったのはBunの勢いが強いからだ、という意見を目にするくらいなので、存在感が強く気になってはいます。
+
+とはいえやはり、まだ採用するには早すぎるかと判断しました。
+
 ### Biome
 
 Astroがまだ[部分的にしかサポートしていない](https://biomejs.dev/internals/language-support/)ため、今回は見送りました。
@@ -318,9 +335,10 @@ Astroがまだ[部分的にしかサポートしていない](https://biomejs.de
 
 CLIでは動作したものの、@markuplint/astro-parserをinstallしてもdevDependenciesに入らず、随時Lintしてくれないのが不便だったため見送りました。
 
-作者の方が[Windows環境にあまり精通していない](https://github.com/markuplint/markuplint/issues/1806#issuecomment-2156634420)とのことなのでパスの問題かもしれません（だとするともう少しGoogleで情報が出てきていいように思いますが……）。vue-parserでも[同様の問題と思われるIssue](https://github.com/markuplint/markuplint/issues/2427)があります。
+作者のかたが[Windows環境にあまり精通していない](https://github.com/markuplint/markuplint/issues/1806#issuecomment-2156634420)とのことなのでパスの問題かもしれません（だとするともう少しGoogleで情報が出てきていいように思いますが……）。vue-parserでも[同様の問題と思われるIssue](https://github.com/markuplint/markuplint/issues/2427)があります。
 
 ## 今後
 
 - ページ数が増えてきたら[integrations](https://astro.build/integrations/)の[Astro Pagination](https://github.com/philnash/astro-components/tree/main/packages/astro-pagination)を検討します。
 - ブログ一覧のCSSがほぼテンプレートそのままなので手を入れるかもしれません。
+- テストを一切書いていないので、今後活用してみたいです。
