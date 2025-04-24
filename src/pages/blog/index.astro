@@ -12,8 +12,6 @@ const posts = (await getCollection("blog")).sort(
 
 import { Breadcrumbs } from "astro-breadcrumbs";
 import "astro-breadcrumbs/breadcrumbs.css";
-
-const customLastPart = [{ }, { text: "Blog" }];
 ---
 
 <!doctype html>
@@ -104,7 +102,7 @@ const customLastPart = [{ }, { text: "Blog" }];
   </head>
   <body>
     <Header />
-    <Breadcrumbs customizeLinks={customLastPart}>
+    <Breadcrumbs>
       <svg
         slot="separator"
         xmlns="http://www.w3.org/2000/svg"
