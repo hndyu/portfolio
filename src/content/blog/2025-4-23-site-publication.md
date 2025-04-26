@@ -43,7 +43,7 @@ Cursor TabやAgent機能の無料プラン制限を使い切った場合は、�
 
 Node.jsのバージョンが22.14.0だと`npm create`でtemplateが使用できない問題が発生しましたが、20.19.0に下げることで解決しました。
 
-![npm warnが表示されているターミナルのスクリーンショット](/2025-4-23-site-publication-hero-image-スクリーンショット 2025-04-20 002102.avif)
+![npm warnが表示されているターミナルのスクリーンショット](/2025-4-23-site-publication-2025-04-20-002102.avif)
 
 [Hugo](https://gohugo.io/)などのSSG（Static Site Generator）も検討しましたが、Astroを使ってみたい気持ちが勝りました。
 
