@@ -48,9 +48,9 @@ Gemini CLIに関しては、Claude CodeやCodexなど含めCLIで動作するエ
 
 以前の職場で試したことがあり非常に便利でしたが、結局は業務で採用する機会はありませんでした。
 
-今回、モジュールバンドラなどの導入をせずシンプルな静的サイトとして作成したところ、Cloudflare Workersで簡単に公開できず(ビルドに失敗)、Netlify Dropを思い出し利用してみました。
+今回、モジュールバンドラなどの導入をせずシンプルな静的サイトとして作成したところ、Cloudflare Workersで簡単に公開できず(ビルドに失敗)、Netlify Dropを思い出し利用してみました。今思うとCloudflare Pagesでもよかったかもしれませんが、[公式で新規プロジェクトにはPagesではなくWorkersを推奨している](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/)ようなので、Netlify Dropで正解だったかもしれません。
 
-ドラッグアンドドロップでデプロイできるのは、速度と簡便さという点で大いにメリットを感じました。
+Netlify Dropを使ってみて、やはりデプロイがドラッグアンドドロップで済むのは、速度と簡便さという点で大いにメリットを感じました。
 
 ### イラスト生成
 
