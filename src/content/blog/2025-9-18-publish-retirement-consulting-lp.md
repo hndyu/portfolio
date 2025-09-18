@@ -2,7 +2,7 @@
 title: "退職コンサルティングビジネスのLP制作・公開"
 description: "架空のビジネス『退職コンサルティング』を題材にランディングページを制作・公開した記録です。Spec KitやGemini CLIなどAIエージェントを活用しつつ、実装やホスティングの試行錯誤を通じて得た気づきをまとめました。"
 pubDate: "2025/9/18"
-# updatedDate: "2025/9/13"
+# updatedDate: "2025/9/18"
 heroImage: "/2025-9-18-publish-retirement-consulting-lp-hero-image.avif"
 ---
 
@@ -10,7 +10,10 @@ heroImage: "/2025-9-18-publish-retirement-consulting-lp-hero-image.avif"
 
 ## 概要
 
-「退職コンサルティング」という架空のビジネスのランディングページです。
+「退職コンサルティング」という架空のビジネスのランディングページを公開しました。
+
+- [公開URL](https://retirement-consulting-lp.netlify.app/)
+- [リポジトリ](https://github.com/hndyu/retirement-consulting-lp)
 
 友人との会話の中で、冗談交じりに「こんなビジネスあったら面白いかもね」とアイデアを投げかけられたのが出発点でした。せっかくなので、それを題材にLPを作成し、公開できる形で仕上げてみることにしました。
 
