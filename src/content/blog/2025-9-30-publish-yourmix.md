@@ -6,9 +6,9 @@ pubDate: "2025/9/30"
 heroImage: "/2025-9-30-publish-yourmix-hero-image.avif"
 ---
 
-# 目次
+## 目次
 
-# 概要
+## 概要
 個人的にカクテルが好きなので、レシピを検索するウェブアプリを作成しました。
 
 - [公開URL](https://yourmix.hndyu.workers.dev/)
@@ -20,7 +20,7 @@ heroImage: "/2025-9-30-publish-yourmix-hero-image.avif"
 
 納得いくまで作り込んでからリリースするつもりでいましたが、ポートフォリオが必要のため、やむなく未完成のまま一旦公開します。今後は随時記事を更新/新規公開していこうかと考えています。
 
-# 技術選定
+## 技術選定
 - エディタ：Cursor
   - コミットメッセージの下書きをAIに作成してもらえるところは地味に便利です。
 - ホスティング：Cloudflare Workers
@@ -36,5 +36,5 @@ heroImage: "/2025-9-30-publish-yourmix-hero-image.avif"
 - テスト：Playwright、Vitest
   - まだ不慣れなため、主にAIの書くテストに頼っています。
 
-# 今後
+## 今後
 技術的に難しいものもありますが、[仕様書](https://github.com/hndyu/yourmix/tree/master/docs)に記載がある内容は実装を進めていきたいと思います。
