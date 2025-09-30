@@ -1,3 +1,11 @@
+---
+title: "Next.jsで制作したレシピ検索ウェブアプリ「YourMix」"
+description: "趣味と学習を融合したポートフォリオ作品。カクテルレシピを検索できるWebアプリをNext.jsとCloudflare Workersで構築しました。未完成ながら公開し、今後も改善を重ねていきます。"
+pubDate: "2025/9/30"
+# updatedDate: "2025/9/30"
+heroImage: "/2025-9-30-publish-yourmix-hero-image.avif"
+---
+
 # 目次
 
 # 概要
