@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import IndexCard from "../components/IndexCard.astro";
 ---
 
 <!doctype html>
@@ -15,76 +16,22 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     <main>
       <h1>ポートフォリオ</h1>
       <ul class="flex list-none pl-0">
-        <li
-          class="m-4 rounded-xl px-4 py-2 shadow-xl transition-shadow duration-500 hover:shadow-2xl"
-        >
-          <h2 class="border-none text-xl">カクテル検索・AI生成ウェブアプリ</h2>
-          <img
-            src="/screenshot-yourmix.avif"
-            alt="カクテル検索・AI生成ウェブアプリのスクリーンショット"
-            class="border border-solid border-gray-100"
-          />
-          <ul>
-            <li>
-              <a
-                href="https://yourmix.hndyu.workers.dev/"
-                target="_blank"
-                rel="noopener noreferrer">公開URL</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/hndyu/yourmix"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Githubリポジトリ</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://portfolio-4ng.pages.dev/blog/2025-9-30-publish-yourmix/"
-                >ブログ記事</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li
-          class="m-4 rounded-xl px-4 py-2 shadow-xl transition-shadow duration-500 hover:shadow-2xl"
-        >
-          <h2 class="border-none text-xl">新規ビジネスのLP</h2>
-          <img
-            src="/screenshot-retirement-consulting-lp.avif"
-            alt="新規ビジネスのLPのスクリーンショット"
-            class="border border-solid border-gray-100"
-          />
-          <ul>
-            <li>
-              <a
-                href="https://retirement-consulting-lp.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer">公開URL</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/hndyu/retirement-consulting-lp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Githubリポジトリ</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://portfolio-4ng.pages.dev/blog/2025-9-18-publish-retirement-consulting-lp/"
-                >ブログ記事</a
-              >
-            </li>
-          </ul>
-        </li>
+        <IndexCard
+          name="カクテル検索・AI生成ウェブアプリ"
+          img="/screenshot-yourmix.avif"
+          url_public="https://yourmix.hndyu.workers.dev/"
+          url_github="https://github.com/hndyu/yourmix"
+          url_blog="https://portfolio-4ng.pages.dev/blog/2025-9-30-publish-yourmix/"
+        />
+        <IndexCard
+          name="新規ビジネスのLP"
+          img="/screenshot-retirement-consulting-lp.avif"
+          url_public="https://retirement-consulting-lp.netlify.app/"
+          url_github="https://github.com/hndyu/retirement-consulting-lp"
+          url_blog="https://portfolio-4ng.pages.dev/blog/2025-9-18-publish-retirement-consulting-lp/"
+        />
       </ul>
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>

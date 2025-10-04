@@ -1,0 +1,37 @@
+---
+const { name, img, url_public, url_github, url_blog} = Astro.props;
+---
+
+<li
+  class="m-4 rounded-xl px-4 py-2 shadow-xl transition-shadow duration-500 hover:shadow-2xl"
+>
+  <h2 class="border-none text-xl">{name}</h2>
+  <img
+    src={img}
+    alt={`${name}のスクリーンショット`}
+    class="border border-solid border-gray-100"
+  />
+  <ul>
+    <li>
+      <a
+        href={url_public}
+        target="_blank"
+        rel="noopener noreferrer">公開URL</a
+      >
+    </li>
+    <li>
+      <a
+        href={url_github}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Githubリポジトリ</a
+      >
+    </li>
+    <li>
+      <a href={url_blog}
+        >ブログ記事</a
+      >
+    </li>
+  </ul>
+</li>
