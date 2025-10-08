@@ -1,5 +1,5 @@
 ---
-const { name, img, url_public, url_github, url_blog} = Astro.props;
+const { name, img, url_public, url_github, url_blog } = Astro.props;
 ---
 
 <li
@@ -12,26 +12,30 @@ const { name, img, url_public, url_github, url_blog} = Astro.props;
     class="border border-solid border-gray-100"
   />
   <ul>
-    <li>
-      <a
-        href={url_public}
-        target="_blank"
-        rel="noopener noreferrer">公開URL</a
-      >
-    </li>
-    <li>
-      <a
-        href={url_github}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Githubリポジトリ</a
-      >
-    </li>
-    <li>
-      <a href={url_blog}
-        >ブログ記事</a
-      >
-    </li>
+    {
+      url_public && (
+        <li>
+          <a href={url_public} target="_blank" rel="noopener noreferrer">
+            公開URL
+          </a>
+        </li>
+      )
+    }
+    {
+      url_github && (
+        <li>
+          <a href={url_github} target="_blank" rel="noopener noreferrer">
+            Githubリポジトリ
+          </a>
+        </li>
+      )
+    }
+    {
+      url_blog && (
+        <li>
+          <a href={url_blog}>ブログ記事</a>
+        </li>
+      )
+    }
   </ul>
 </li>
