@@ -27,6 +27,18 @@ Firebaseを採用し、Googleアカウントでのログイン機能やFirestore
 
 Firestore Databaseのルールをひとまず2025/11/30までのテストモードに設定しているため、期日をすぎると当アプリは動作しなくなります。
 
+### X(旧Twitter)クローンアプリ
+![X(旧Twitter)クローンアプリのスクリーンショット](/2025-10-8-publish-school-work-school-xclone.avif)
+
+- [公開URL](https://xclone-baff9.web.app/)
+- [Githubリポジトリ](https://github.com/hndyu/school-xclone)
+
+XがまだTwitterだったころを再現したクローンアプリです。Firebaseに関しては上記と同様になります。
+
+以下の部分が気になっているため、後ほど対応予定です。
+- 投稿時のアニメーションにバグ(新規投稿ではなく最古の投稿にアニメーションが適用される)
+- 画像URL対応
+
 ### ECサイトデモ
 ![ECサイトデモのスクリーンショット](/2025-10-8-publish-school-work-school-ec-shop.avif)
 
@@ -116,6 +128,8 @@ Express.jsを用いてJSONを返すだけのAPIをバックエンドに作成、
 Tailwind.cssを用いてポートフォリオ風のページを制作しました。内容はほぼすべて仮のものです。
 
 Tailwindは慣れてくるとスピーディーに開発を進められるのがメリットだと感じましたが、レスポンシブ対応を進めていくうちにclassの値がどんどん肥大化していくのが気になりました。可読性や保守性が悪化しそうなので、このあたりの管理をうまくやる必要があるのかな、と思います。
+
+[Vite](https://ja.vite.dev/)を使用しましたが、react-create-appより格段に高速で印象がよかったです。
 
 ### useContext練習
 ![useContext練習のスクリーンショット](/2025-10-8-publish-school-work-school-context-rensyu.avif)
