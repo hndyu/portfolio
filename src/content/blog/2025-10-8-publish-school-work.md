@@ -2,7 +2,7 @@
 title: "公共職業訓練校での制作実績まとめ"
 description: "ReactやPHP、HTML/CSSなど、職業訓練校で学習・制作したWebアプリやデモページをまとめています。各作品の公開URLとGitHubリポジトリも掲載しています。"
 pubDate: "2025/10/8"
-# updatedDate: "2025/9/30"
+updatedDate: "2025/10/9"
 heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
 ---
 
@@ -139,18 +139,24 @@ useContextを理解するためのシンプルなページです。
 今のところローカルでしか動作しないためデプロイはしていません。各ページの挙動に関しては動画でご確認いただけます。
 
 ### 家計簿アプリ
+![家計簿アプリのスクリーンショット](/2025-10-8-publish-school-work-school-phpKakeibo.avif)
+
 - [動画(Youtube)](https://youtu.be/2NLGcb00MiY)
 - [Githubリポジトリ](https://github.com/hndyu/school-phpKakeibo)
 
 CRUD実践のための簡単な家計簿アプリです。収支の登録・編集・削除が行えます。デザインはBootstrapに任せています。
 
 ### フォームデモ
+![フォームデモのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_form.avif)
+
 - [動画(Youtube)](https://youtu.be/uEsTv0OLlYU)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_form)
 
 シンプルなフォーム送信のデモです。SMTPの設定まではしていないので送信完了ページでWarningが出ます。
 
 ### 2ch風BBS
+![2ch風BBSのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_BBS.avif)
+
 - [動画(Youtube)](https://youtu.be/_4wJR86ZJPA)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_BBS)
 
