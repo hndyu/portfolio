@@ -2,7 +2,7 @@
 title: "公共職業訓練校での制作実績まとめ"
 description: "ReactやPHP、HTML/CSSなど、職業訓練校で学習・制作したWebアプリやデモページをまとめています。各作品の公開URLとGitHubリポジトリも掲載しています。"
 pubDate: "2025/10/8"
-# updatedDate: "2025/9/30"
+updatedDate: "2025/10/9"
 heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
 ---
 
@@ -26,6 +26,18 @@ heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
 Firebaseを採用し、Googleアカウントでのログイン機能やFirestore Databaseへの読み書きを実装した、LINE風の双方向メッセージアプリです。デプロイ先もFirebase Hostingにしています。
 
 Firestore Databaseのルールをひとまず2025/11/30までのテストモードに設定しているため、期日をすぎると当アプリは動作しなくなります。
+
+### X(旧Twitter)クローンアプリ
+![X(旧Twitter)クローンアプリのスクリーンショット](/2025-10-8-publish-school-work-school-xclone.avif)
+
+- [公開URL](https://xclone-baff9.web.app/)
+- [Githubリポジトリ](https://github.com/hndyu/school-xclone)
+
+XがまだTwitterだったころを再現したクローンアプリです。Firebaseに関しては上記と同様になります。
+
+以下の部分が気になっているため、後ほど対応予定です。
+- 投稿時のアニメーションにバグ(新規投稿ではなく最古の投稿にアニメーションが適用される)
+- 画像URL対応
 
 ### ECサイトデモ
 ![ECサイトデモのスクリーンショット](/2025-10-8-publish-school-work-school-ec-shop.avif)
@@ -127,6 +139,8 @@ Tailwind.cssを用いてポートフォリオ風のページを制作しまし�
 
 Tailwindは慣れてくるとスピーディーに開発を進められるのがメリットだと感じましたが、レスポンシブ対応を進めていくうちにclassの値がどんどん肥大化していくのが気になりました。可読性や保守性が悪化しそうなので、このあたりの管理をうまくやる必要があるのかな、と思います。
 
+[Vite](https://ja.vite.dev/)を使用しましたが、react-create-appより格段に高速で印象がよかったです。
+
 ### useContext練習
 ![useContext練習のスクリーンショット](/2025-10-8-publish-school-work-school-context-rensyu.avif)
 
@@ -149,18 +163,24 @@ useContextを理解するためのシンプルなページです。
 今のところローカルでしか動作しないためデプロイはしていません。各ページの挙動に関しては動画でご確認いただけます。
 
 ### 家計簿アプリ
+![家計簿アプリのスクリーンショット](/2025-10-8-publish-school-work-school-phpKakeibo.avif)
+
 - [動画(Youtube)](https://youtu.be/2NLGcb00MiY)
 - [Githubリポジトリ](https://github.com/hndyu/school-phpKakeibo)
 
 CRUD実践のための簡単な家計簿アプリです。収支の登録・編集・削除が行えます。デザインはBootstrapに任せています。
 
 ### フォームデモ
+![フォームデモのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_form.avif)
+
 - [動画(Youtube)](https://youtu.be/uEsTv0OLlYU)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_form)
 
 シンプルなフォーム送信のデモです。SMTPの設定まではしていないので送信完了ページでWarningが出ます。
 
 ### 2ch風BBS
+![2ch風BBSのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_BBS.avif)
+
 - [動画(Youtube)](https://youtu.be/_4wJR86ZJPA)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_BBS)
 
