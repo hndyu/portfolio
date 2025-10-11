@@ -53,6 +53,16 @@ Reduxを用いてECサイトのショッピングカート部分を制作しま�
 
 学習曲線としてはやや急に感じましたが、状態管理ライブラリとしての知名度・人気を考えると、乗り越える壁のように思います。
 
+### お天気アプリ
+![お天気アプリのスクリーンショット](/2025-10-8-publish-school-work-school-weather-app.avif)
+
+- [動画(Youtube)](https://youtu.be/0IQv1-uapCY)
+- [Githubリポジトリ](https://github.com/hndyu/school-weather-app)
+
+都市名や国名で検索すると[Axios](https://github.com/axios/axios)で[OpenWeatherMap](https://openweathermap.org/)のAPIを叩き、現地の天気を表示してくれるアプリです。
+
+フロントエンドの実装しかないため、API KEYが見られないようアプリは公開していません。
+
 ### TypeScript ToDoアプリ
 ![TypeScript ToDoアプリのスクリーンショット](/2025-10-8-publish-school-work-school-todo-typescript.avif)
 
