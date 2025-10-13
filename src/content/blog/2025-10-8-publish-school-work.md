@@ -2,7 +2,7 @@
 title: "公共職業訓練校での制作実績まとめ"
 description: "ReactやPHP、HTML/CSSなど、職業訓練校で学習・制作したWebアプリやデモページをまとめています。各作品の公開URLとGitHubリポジトリも掲載しています。"
 pubDate: "2025/10/8"
-updatedDate: "2025/10/9"
+updatedDate: "2025/10/13"
 heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
 ---
 
@@ -42,10 +42,12 @@ XがまだTwitterだったころを再現したクローンアプリです。Fir
 ### ECサイトデモ
 ![ECサイトデモのスクリーンショット](/2025-10-8-publish-school-work-school-ec-shop.avif)
 
-- [公開URL](https://school-ec-shop.vercel.app/)
+- [動画(Youtube)](https://youtu.be/83yCF2BjGlY)
 - [Githubリポジトリ](https://github.com/hndyu/school-ec-shop)
 
-ECサイトのデモページです。決済機能はないため、[Stripe](https://stripe.com/jp)で実装できるか試してみる予定です。
+ECサイトのデモページです。バックエンドはExpress.jsで実装しました。このままデプロイしても動作しなかったため、動画のみの公開としています。
+
+決済機能はないため、[Stripe](https://stripe.com/jp)で実装できるか~~試してみる予定です~~。10/13追記：決済機能を実装しました。Stripeを触るのは初めてだったので戸惑いましたが、ひとまず動くところまで持っていけたのは自信につながりました。
 
 ### メモアプリ1
 ![メモアプリのスクリーンショット](/2025-10-8-publish-school-work-school-basic-memo-app.avif)
