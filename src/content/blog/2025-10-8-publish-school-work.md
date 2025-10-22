@@ -58,6 +58,8 @@ ECサイトのデモページです。バックエンドはExpress.jsで実装�
 
 AI駆動開発を学ぶため、ブログシステムをバイブコーディングで構築しました。ログインしない場合でも[公開記事一覧ページ](https://ai-driven-before-ui-one.vercel.app/public-articles)にてすべての投稿内容を確認できるようにしてあります。
 
+なお、右サイドバーの内容は静的で、仮のものです。
+
 ユーザー認証は訓練校の先生いちおしの[Clerk](https://clerk.com/)、DBは[Supabase](https://supabase.com/)、Webhook周りで[Svix](https://www.svix.com/)、ローカルでのテストには[ngrok](https://ngrok.com/)、バリデーションチェックに[Zod](https://zod.dev/)を採用しました。
 
 エージェントに開発を任せていると、あっという間にGithub CopilotとCursorの無料枠を使い切ってしまいました。今のところ無料で使う分にはGemini CLIがあまり制限を気にしなくてよいので有力な選択肢に思えます。
