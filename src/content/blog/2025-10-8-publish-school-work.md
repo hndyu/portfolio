@@ -54,7 +54,7 @@ ECサイトのデモページです。バックエンドはExpress.jsで実装�
 ![ブログデモのスクリーンショット](/2025-10-8-publish-school-work-ai-driven-before-ui.avif)
 
 - [公開URL](https://ai-driven-before-ui-one.vercel.app/)
-- [Githubリポジトリ](https://github.com/hndyu/ai-driven-before-ui)
+- [Githubリポジトリ](https://github.com/hndyu/school-ai-driven-before-ui)
 
 AI駆動開発を学ぶため、ブログシステムをバイブコーディングで構築しました。ログインしない場合でも[公開記事一覧ページ](https://ai-driven-before-ui-one.vercel.app/public-articles)にてすべての投稿内容を確認できるようにしてあります。
 
