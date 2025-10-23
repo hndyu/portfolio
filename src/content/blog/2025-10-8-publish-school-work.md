@@ -62,7 +62,7 @@ AI駆動開発を学ぶため、ブログシステムをバイブコーディン
 
 ユーザー認証は訓練校の先生いちおしの[Clerk](https://clerk.com/)、DBは[Supabase](https://supabase.com/)、Webhook周りで[Svix](https://www.svix.com/)、ローカルでのテストには[ngrok](https://ngrok.com/)、バリデーションチェックに[Zod](https://zod.dev/)を採用しました。
 
-Prismaは初めて触ったのですがマイグレーションに苦戦し、結局一度npx prisma migrate resetすることになりました。
+Prismaは初めて触ったのですがマイグレーションに苦戦し、結局一度`npx prisma migrate reset`することになりました。
 
 エージェントに開発を任せていると、あっという間にGithub CopilotとCursorの無料枠を使い切ってしまいました。今のところ無料で使う分にはGemini CLIがあまり制限を気にしなくてよいので有力な選択肢に思えます。
 
