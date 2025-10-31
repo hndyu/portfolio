@@ -58,11 +58,13 @@ ECサイトのデモページです。バックエンドはExpress.jsで実装�
 
 AI駆動開発を学ぶため、ブログシステムをバイブコーディングで構築しました。ログインしない場合でも[公開記事一覧ページ](https://ai-driven-before-ui-one.vercel.app/public-articles)にてすべての投稿内容を確認できるようにしてあります。
 
-なお、右サイドバーは静的コンテンツで、仮の内容です。
+なお、右サイドバーは投稿記事と連動しておらず、仮の内容です。
 
 ユーザー認証は訓練校の先生いちおしの[Clerk](https://clerk.com/)、DBは[Supabase](https://supabase.com/)、Webhook周りで[Svix](https://www.svix.com/)、ローカルでのテストには[ngrok](https://ngrok.com/)、バリデーションチェックに[Zod](https://zod.dev/)を採用しました。
 
 Prismaは初めて触ったのですがマイグレーションに苦戦し、結局一度`npx prisma migrate reset`することになりました。
+
+Supabaseは無料プランのため、DBが一時停止状態になっている場合がありえます。なるべく稼働状態を維持するようにしますが、エラーが起きている際はご理解いただけますと幸いです。
 
 エージェントに開発を任せていると、あっという間にGithub CopilotとCursorの無料枠を使い切ってしまいました。今のところ無料で使う分にはGemini CLIがあまり制限を気にしなくてよいので有力な選択肢に思えます。
 
