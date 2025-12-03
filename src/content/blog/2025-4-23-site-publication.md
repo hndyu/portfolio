@@ -3,7 +3,7 @@ title: "ポートフォリオサイト構築の技術選定"
 description: "ポートフォリオサイトを公開するまでの技術選定プロセスを詳細に解説。エディタ、ホスティング、フレームワークの選定理由や、採用を見送った技術についても言及します。"
 pubDate: "2025/4/23"
 updatedDate: "2025/4/24"
-heroImage: "/2025-4-23-site-publication-hero-image.avif"
+heroImage: "../../images/site-publication/hero-image.avif"
 ---
 
 ## はじめに
@@ -43,7 +43,7 @@ Cursor TabやAgent機能の無料プラン制限を使い切った場合は、�
 
 Node.jsのバージョンが22.14.0だと`npm create`でtemplateが使用できない問題が発生しましたが、20.19.0に下げることで解決しました。
 
-![npm warnが表示されているターミナルのスクリーンショット](/2025-4-23-site-publication-2025-04-20-002102.avif)
+![npm warnが表示されているターミナルのスクリーンショット](../../images/site-publication/npm-warn.avif)
 
 [Hugo](https://gohugo.io/)などのSSG（Static Site Generator）も検討しましたが、Astroを使ってみたい気持ちが勝りました。
 
@@ -61,6 +61,7 @@ Github Star数を基準に[AstroWind](https://github.com/onwidget/astrowind)や[
 
 - [rehype-external-links](https://github.com/rehypejs/rehype-external-links)：外部リンクを`target="_blank"`かつ`rel="noopener noreferrer"`に変更。
 - [remark-toc](https://github.com/remarkjs/remark-toc)：ブログ記事に目次を生成。
+- [rehype-mermaid](https://github.com/remcohaszing/rehype-mermaid)：Mermaidで図を表示。
 - [Astro | Breadcrumbs](https://github.com/felix-berlin/astro-breadcrumbs)：パンくずリストを生成。
 - [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)：Prettierを導入。
 - [eslint-plugin-astro](https://ota-meshi.github.io/eslint-plugin-astro/)：ESLintを導入。

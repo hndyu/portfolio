@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import rehypeExternalLinks from 'rehype-external-links';
 import remarkToc from 'remark-toc';
+import rehypeMermaid from 'rehype-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,6 +16,10 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   markdown: {
+    syntaxHighlight: {
+      type: 'shiki',
+      excludeLangs: ['mermaid', 'math'],
+    },
     remarkPlugins: [
       [remarkToc,
         {
@@ -31,6 +36,10 @@ export default defineConfig({
           content: { type: 'text', value: '↗' }, // 外部リンクアイコン（オプション）
         },
       ],
+      [
+        rehypeMermaid,
+        {}
+      ]
     ],
   },
 });

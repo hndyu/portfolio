@@ -3,7 +3,7 @@ title: "公共職業訓練校での制作実績まとめ"
 description: "ReactやPHP、HTML/CSSなど、職業訓練校で学習・制作したWebアプリやデモページをまとめています。各作品の公開URLとGitHubリポジトリも掲載しています。"
 pubDate: "2025/10/8"
 updatedDate: "2025/10/13"
-heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
+heroImage: "../../images/publish-school-work/hero-image.avif"
 ---
 
 ## 目次
@@ -18,7 +18,7 @@ heroImage: "/2025-10-8-publish-school-work-hero-image.avif"
 ## React
 
 ### LINEクローンアプリ
-![LINEクローンアプリのスクリーンショット](/2025-10-8-publish-school-work-school-line_clone.avif)
+![LINEクローンアプリのスクリーンショット](../../images/publish-school-work/school-line_clone.avif)
 
 - [公開URL](https://lineclone-a156c.web.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-line_clone)
@@ -28,7 +28,7 @@ Firebaseを採用し、Googleアカウントでのログイン機能やFirestore
 Firestore Databaseのルールをひとまず2025/11/30までのテストモードに設定しているため、期日をすぎると当アプリは動作しなくなります。
 
 ### X(旧Twitter)クローンアプリ
-![X(旧Twitter)クローンアプリのスクリーンショット](/2025-10-8-publish-school-work-school-xclone.avif)
+![X(旧Twitter)クローンアプリのスクリーンショット](../../images/publish-school-work/school-xclone.avif)
 
 - [公開URL](https://xclone-baff9.web.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-xclone)
@@ -41,7 +41,7 @@ XがまだTwitterだったころを再現したクローンアプリです。Fir
     - 10/14追記：対応済み
 
 ### ECサイトデモ
-![ECサイトデモのスクリーンショット](/2025-10-8-publish-school-work-school-ec-shop.avif)
+![ECサイトデモのスクリーンショット](../../images/publish-school-work/school-ec-shop.avif)
 
 - [動画(Youtube)](https://youtu.be/83yCF2BjGlY)
 - [Githubリポジトリ](https://github.com/hndyu/school-ec-shop)
@@ -51,7 +51,7 @@ ECサイトのデモページです。バックエンドはExpress.jsで実装�
 決済機能はないため、[Stripe](https://stripe.com/jp)で実装できるか~~試してみる予定です~~。10/13追記：決済機能を実装しました。Stripeを触るのは初めてだったので戸惑いましたが、ひとまず動くところまで持っていけたのは自信につながりました。
 
 ### ブログデモ
-![ブログデモのスクリーンショット](/2025-10-8-publish-school-work-ai-driven-before-ui.avif)
+![ブログデモのスクリーンショット](../../images/publish-school-work/ai-driven-before-ui.avif)
 
 - [公開URL](https://ai-driven-before-ui-one.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-ai-driven-before-ui)
@@ -71,7 +71,7 @@ Supabaseは無料プランのため、DBが一時停止状態になっている�
 今後、時間が取れれば~~Supabase Storageを使った画像投稿、記事のお気に入りやフィルター機能などを追加したいと考えています~~。10/22追記：両方に対応しました。
 
 ### メモアプリ1
-![メモアプリのスクリーンショット](/2025-10-8-publish-school-work-school-basic-memo-app.avif)
+![メモアプリのスクリーンショット](../../images/publish-school-work/school-basic-memo-app.avif)
 
 - [公開URL](https://basic-memo-app-mocha.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-basic-memo-app)
@@ -79,7 +79,7 @@ Supabaseは無料プランのため、DBが一時停止状態になっている�
 Reactの基礎やuseStateを学ぶための簡単なメモアプリです。なお、DB等は使用していないので内容は保存されません。
 
 ### Redux ショッピングカートアプリ
-![Redux ショッピングカートアプリのスクリーンショット](/2025-10-8-publish-school-work-school-redux-basic-app.avif)
+![Redux ショッピングカートアプリのスクリーンショット](../../images/publish-school-work/school-redux-basic-app.avif)
 
 - [公開URL](https://school-redux-basic-app.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-redux-basic-app)
@@ -89,7 +89,7 @@ Reduxを用いてECサイトのショッピングカート部分を制作しま�
 学習曲線としてはやや急に感じましたが、状態管理ライブラリとしての知名度・人気を考えると、乗り越える壁のように思います。
 
 ### お天気アプリ
-![お天気アプリのスクリーンショット](/2025-10-8-publish-school-work-school-weather-app.avif)
+![お天気アプリのスクリーンショット](../../images/publish-school-work/school-weather-app.avif)
 
 - [動画(Youtube)](https://youtu.be/0IQv1-uapCY)
 - [Githubリポジトリ](https://github.com/hndyu/school-weather-app)
@@ -99,7 +99,7 @@ Reduxを用いてECサイトのショッピングカート部分を制作しま�
 フロントエンドの実装しかないため、API KEYが見られないようアプリは公開していません。
 
 ### TypeScript ToDoアプリ
-![TypeScript ToDoアプリのスクリーンショット](/2025-10-8-publish-school-work-school-todo-typescript.avif)
+![TypeScript ToDoアプリのスクリーンショット](../../images/publish-school-work/school-todo-typescript.avif)
 
 - [公開URL](https://school-todo-typescript.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-todo-typescript)
@@ -107,7 +107,7 @@ Reduxを用いてECサイトのショッピングカート部分を制作しま�
 TypeScriptの練習のために制作したシンプルなToDoアプリです。
 
 ### クイズアプリ
-![クイズアプリのスクリーンショット](/2025-10-8-publish-school-work-school-quiz-app-six.avif)
+![クイズアプリのスクリーンショット](../../images/publish-school-work/school-quiz-app-six.avif)
 
 - [公開URL](https://school-quiz-app-six.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-quiz-app)
@@ -115,7 +115,7 @@ TypeScriptの練習のために制作したシンプルなToDoアプリです。
 useStateとuseEffectの勉強のために作ったクイズアプリです。
 
 ### ToDoアプリ
-![TypeScript ToDoアプリのスクリーンショット](/2025-10-8-publish-school-work-school-react-todo.avif)
+![TypeScript ToDoアプリのスクリーンショット](../../images/publish-school-work/school-react-todo.avif)
 
 - [公開URL](https://school-react-todo.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-react-todo)
@@ -123,7 +123,7 @@ useStateとuseEffectの勉強のために作ったクイズアプリです。
 [uuid](https://www.npmjs.com/package/uuid)を用いてIDを管理するToDoアプリです。
 
 ### useContextデモ
-![useContextデモのスクリーンショット](/2025-10-8-publish-school-work-school-my-app.avif)
+![useContextデモのスクリーンショット](../../images/publish-school-work/school-my-app.avif)
 
 - [公開URL](https://school-my-app.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-my-app)
@@ -133,7 +133,7 @@ useStateとuseEffectの勉強のために作ったクイズアプリです。
 グローバルなstate管理のためのuseContextを理解・実践するための、簡単な状態変更が行えるページを制作しました。
 
 ### メモアプリ2
-![useContextデモのスクリーンショット](/2025-10-8-publish-school-work-school-text-todo.avif)
+![useContextデモのスクリーンショット](../../images/publish-school-work/school-text-todo.avif)
 
 - [公開URL](https://school-text-todo.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-text-todo)
@@ -141,7 +141,7 @@ useStateとuseEffectの勉強のために作ったクイズアプリです。
 こちらも『モダンJavaScriptの基本から始めるReact実践の教科書』に基づいています。
 
 ### API利用デモ
-![API利用デモのスクリーンショット](/2025-10-8-publish-school-work-school-my-app-ts.avif)
+![API利用デモのスクリーンショット](../../images/publish-school-work/school-my-app-ts.avif)
 
 - [公開URL](https://school-my-app-ts.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-my-app-ts)
@@ -153,7 +153,7 @@ Express.jsを用いてJSONを返すだけのAPIをバックエンドに作成、
 その後、[JSON Placeholder](https://jsonplaceholder.typicode.com/)で代用する内容に変更しリリースしました。
 
 ### Tailwind.css デモ
-![Tailwind.css デモのスクリーンショット](/2025-10-8-publish-school-work-school-tailwindcss-portfolio.avif)
+![Tailwind.css デモのスクリーンショット](../../images/publish-school-work/school-tailwindcss-portfolio.avif)
 
 - [公開URL](https://school-portfolio-gamma.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-tailwindcss-portfolio)
@@ -165,7 +165,7 @@ Tailwindは慣れてくるとスピーディーに開発を進められるのが
 [Vite](https://ja.vite.dev/)を使用しましたが、react-create-appより格段に高速で印象がよかったです。
 
 ### useContext練習
-![useContext練習のスクリーンショット](/2025-10-8-publish-school-work-school-context-rensyu.avif)
+![useContext練習のスクリーンショット](../../images/publish-school-work/school-context-rensyu.avif)
 
 - [公開URL](https://school-context-rensyu.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-context-rensyu)
@@ -173,7 +173,7 @@ Tailwindは慣れてくるとスピーディーに開発を進められるのが
 useContextを理解するためのシンプルなページです。
 
 ### useState + TypeScript練習
-![useState + TypeScript練習のスクリーンショット](/2025-10-8-publish-school-work-school-ts-tutorial.avif)
+![useState + TypeScript練習のスクリーンショット](../../images/publish-school-work/school-ts-tutorial.avif)
 
 - [公開URL](https://school-ts-tutorial.vercel.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-ts-tutorial)
@@ -186,7 +186,7 @@ useContextを理解するためのシンプルなページです。
 今のところローカルでしか動作しないためデプロイはしていません。各ページの挙動に関しては動画でご確認いただけます。
 
 ### 家計簿アプリ
-![家計簿アプリのスクリーンショット](/2025-10-8-publish-school-work-school-phpKakeibo.avif)
+![家計簿アプリのスクリーンショット](../../images/publish-school-work/school-phpKakeibo.avif)
 
 - [動画(Youtube)](https://youtu.be/2NLGcb00MiY)
 - [Githubリポジトリ](https://github.com/hndyu/school-phpKakeibo)
@@ -194,7 +194,7 @@ useContextを理解するためのシンプルなページです。
 CRUD実践のための簡単な家計簿アプリです。収支の登録・編集・削除が行えます。デザインはBootstrapに任せています。
 
 ### フォームデモ
-![フォームデモのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_form.avif)
+![フォームデモのスクリーンショット](../../images/publish-school-work/school-PHP_form.avif)
 
 - [動画(Youtube)](https://youtu.be/uEsTv0OLlYU)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_form)
@@ -202,7 +202,7 @@ CRUD実践のための簡単な家計簿アプリです。収支の登録・編�
 シンプルなフォーム送信のデモです。SMTPの設定まではしていないので送信完了ページでWarningが出ます。
 
 ### 2ch風BBS
-![2ch風BBSのスクリーンショット](/2025-10-8-publish-school-work-school-PHP_BBS.avif)
+![2ch風BBSのスクリーンショット](../../images/publish-school-work/school-PHP_BBS.avif)
 
 - [動画(Youtube)](https://youtu.be/_4wJR86ZJPA)
 - [Githubリポジトリ](https://github.com/hndyu/school-PHP_BBS)
@@ -215,7 +215,7 @@ Githubへのアップロード、およびNetlify Dropを使ったデプロイ�
 Netlify Dropは便利ですが、今でも日本にサーバーがないようなので、ページの読み込みには少し時間がかかる場合があります。
 
 ### 背景動画
-![背景動画のスクリーンショット](/2025-10-8-publish-school-work-school-videowebsite.avif)
+![背景動画のスクリーンショット](../../images/publish-school-work/school-videowebsite.avif)
 
 - [公開URL](https://school-videowebsite.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-videoWebsite)
@@ -223,7 +223,7 @@ Netlify Dropは便利ですが、今でも日本にサーバーがないよう�
 動画を背景でループ再生するページですが、ファイル自体がかなり重く(20MB)、再生までに時間がかかることがあります。もう少し圧縮しておくべきだったかもしれません。
 
 ### 3Dスクロール(CSS)
-![3Dスクロール(CSS)のスクリーンショット](/2025-10-8-publish-school-work-school-three-d-scroll-site.avif)
+![3Dスクロール(CSS)のスクリーンショット](../../images/publish-school-work/school-three-d-scroll-site.avif)
 
 - [公開URL](https://school-three-d-scroll-site.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-three-d-scroll-site)
@@ -231,19 +231,19 @@ Netlify Dropは便利ですが、今でも日本にサーバーがないよう�
 CSSで3D風に表示することもできることを学ぶためのページです。
 
 ### ECサイト
-![ECサイトのスクリーンショット](/2025-10-8-publish-school-work-school-shoes-ecommerce.avif)
+![ECサイトのスクリーンショット](../../images/publish-school-work/school-shoes-ecommerce.avif)
 
 - [公開URL](https://school-shoes-ecommerce.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-shoes_ecommerce)
 
 ### 音楽再生
-![音楽再生のスクリーンショット](/2025-10-8-publish-school-work-school-musicwebsite.avif)
+![音楽再生のスクリーンショット](../../images/publish-school-work/school-musicwebsite.avif)
 
 - [公開URL](https://school-musicwebsite.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-musicWebsite)
 
 ### レスポンシブデザイン1
-![レスポンシブデザイン + JSのスクリーンショット](/2025-10-8-publish-school-work-school-fashion.avif)
+![レスポンシブデザイン + JSのスクリーンショット](../../images/publish-school-work/school-fashion.avif)
 
 - [公開URL](https://school-fashion.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-Fashion)
@@ -251,7 +251,7 @@ CSSで3D風に表示することもできることを学ぶためのページで
 訓練校で採用している教本[『1冊ですべて身につくJavaScript入門講座』](https://www.sbcr.jp/product/4815615758/)に基づいたページです。
 
 ### レスポンシブデザイン2
-![レスポンシブデザイン1のスクリーンショット](/2025-10-8-publish-school-work-school-wcbcafe.avif)
+![レスポンシブデザイン1のスクリーンショット](../../images/publish-school-work/school-wcbcafe.avif)
 
 - [公開URL](https://school-wcbcafe.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-WCBCafe)
@@ -259,13 +259,13 @@ CSSで3D風に表示することもできることを学ぶためのページで
 訓練校で採用している教本[1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］](https://www.sbcr.jp/product/4815618469/)に基づいたページです。
 
 ### レスポンシブデザイン3
-![レスポンシブデザイン2のスクリーンショット](/2025-10-8-publish-school-work-school-lprwd.avif)
+![レスポンシブデザイン2のスクリーンショット](../../images/publish-school-work/school-lprwd.avif)
 
 - [公開URL](https://school-lprwd.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-LPRWD)
 
 ### PC向けLP
-![PC向けLPのスクリーンショット](/2025-10-8-publish-school-work-school-playstationlp.avif)
+![PC向けLPのスクリーンショット](../../images/publish-school-work/school-playstationlp.avif)
 
 - [公開URL](https://school-playstationlp.netlify.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-playstationLP)

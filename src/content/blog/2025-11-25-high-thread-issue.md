@@ -3,7 +3,7 @@ title: "高スレッドCPU環境でVitestがEMFILEエラーになる原因と対
 description: "ハイスペックなPCでVitestを実行した際にのみテストが失敗する問題に遭遇しました。原因であるファイルディスクリプタ上限のエラーと、@mui/icons-materialの名前付きインポートを修正することによる解決策を解説します。"
 pubDate: "2025/11/25"
 # updatedDate: "2025/10/13"
-heroImage: "/2025-11-25-high-thread-issue-hero-image.avif"
+heroImage: "../../images/high-thread-issue/hero-image.avif"
 ---
 
 ## 目次
@@ -17,7 +17,7 @@ heroImage: "/2025-11-25-high-thread-issue-hero-image.avif"
 
 職業訓練校内で実行した際はPassしたテストが、自宅のPCだとFailしました（[該当コミット](https://github.com/hndyu/yourmix/commit/93cf12a44432d81468383738b08217aa0551b91e)）。
 
-![EMFILE: too many open files というエラーメッセージが表示されたコンソール画面](/2025-11-25-high-thread-issue-fail.avif)
+![EMFILE: too many open files というエラーメッセージが表示されたコンソール画面](../../images/high-thread-issue/fail.avif)
 
 ## 原因
 エラー内容はEMFILE: too many open files。初めて見るエラーだったのでとりあえず検索したところ、[Vitest公式リポジトリのIssue](https://github.com/vitest-dev/vitest/issues/3576)が最初に現れました。
@@ -61,7 +61,7 @@ AIの力も借りつつ調べたところ、[Vitestは複数のプロセスで�
 
 結果、確かにテストにPassできました！（[該当コミット](https://github.com/hndyu/yourmix/commit/eb6fbef12b2a6c4fc30fceeae4b37c37b892137c)）
 
-![全てのテストがPassしたことを示すVitestの実行結果画面](/2025-11-25-high-thread-issue-pass.avif)
+![全てのテストがPassしたことを示すVitestの実行結果画面](../../images/high-thread-issue/pass.avif)
 
 ### 対処法その2（失敗）
 

@@ -4,6 +4,9 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import IndexCard from "../components/IndexCard.astro";
+import screenshotYourmix from "../images/screenshot-yourmix.avif";
+import screenshotRetirement from "../images/screenshot-retirement-consulting-lp.avif";
+import schoolWorkHero from "../images/publish-school-work/hero-image.avif";
 ---
 
 <!doctype html>
@@ -18,21 +21,21 @@ import IndexCard from "../components/IndexCard.astro";
       <ul class="grid list-none grid-cols-1 pl-0 md:grid-cols-2">
         <IndexCard
           name="カクテル検索・AI生成ウェブアプリ"
-          img="/screenshot-yourmix.avif"
+          img={screenshotYourmix}
           url_public="https://yourmix.hndyu.workers.dev/"
           url_github="https://github.com/hndyu/yourmix"
           url_blog="/blog/2025-9-30-publish-yourmix/"
         />
         <IndexCard
           name="新規ビジネスのLP"
-          img="/screenshot-retirement-consulting-lp.avif"
+          img={screenshotRetirement}
           url_public="https://retirement-consulting-lp.netlify.app/"
           url_github="https://github.com/hndyu/retirement-consulting-lp"
           url_blog="/blog/2025-9-18-publish-retirement-consulting-lp/"
         />
         <IndexCard
           name="公共職業訓練校での制作実績まとめ"
-          img="/2025-10-8-publish-school-work-hero-image.avif"
+          img={schoolWorkHero}
           url_blog="/blog/2025-10-8-publish-school-work/"
         />
       </ul>

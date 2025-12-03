@@ -3,7 +3,7 @@ title: "退職コンサルティングビジネスのLP制作・公開"
 description: "架空のビジネス『退職コンサルティング』を題材にランディングページを制作・公開した記録です。Spec KitやGemini CLIなどAIエージェントを活用しつつ、実装やホスティングの試行錯誤を通じて得た気づきをまとめました。"
 pubDate: "2025/9/18"
 # updatedDate: "2025/9/18"
-heroImage: "/2025-9-18-publish-retirement-consulting-lp-hero-image.avif"
+heroImage: "../../images/publish-retirement-consulting-lp/hero-image.avif"
 ---
 
 ## 目次
