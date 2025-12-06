@@ -24,7 +24,7 @@ heroImage: "../../images/publish-yourmix/hero-image.avif"
 ## アーキテクチャ
 
 ```mermaid
-C4Context
+C4Container
   title YourMix アーキテクチャ図
 
   Person(user, "ユーザー", "ブラウザ経由でアクセス")
