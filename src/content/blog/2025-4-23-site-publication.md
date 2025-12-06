@@ -1,8 +1,8 @@
 ---
 title: "ポートフォリオサイト構築の技術選定"
 description: "ポートフォリオサイトを公開するまでの技術選定プロセスを詳細に解説。エディタ、ホスティング、フレームワークの選定理由や、採用を見送った技術についても言及します。"
-pubDate: "2025/4/23"
-updatedDate: "2025/4/24"
+pubDate: "2025-04-23"
+updatedDate: "2025-04-24"
 heroImage: "../../images/site-publication/hero-image.avif"
 ---
 

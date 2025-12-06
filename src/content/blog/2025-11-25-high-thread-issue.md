@@ -1,8 +1,8 @@
 ---
 title: "高スレッドCPU環境でVitestがEMFILEエラーになる原因と対処法"
 description: "ハイスペックなPCでVitestを実行した際にのみテストが失敗する問題に遭遇しました。原因であるファイルディスクリプタ上限のエラーと、@mui/icons-materialの名前付きインポートを修正することによる解決策を解説します。"
-pubDate: "2025/11/25"
-# updatedDate: "2025/10/13"
+pubDate: "2025-11-25"
+# updatedDate: "2025-10-13"
 heroImage: "../../images/high-thread-issue/hero-image.avif"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "公共職業訓練校での制作実績まとめ"
 description: "ReactやPHP、HTML/CSSなど、職業訓練校で学習・制作したWebアプリやデモページをまとめています。各作品の公開URLとGitHubリポジトリも掲載しています。"
-pubDate: "2025/10/8"
-updatedDate: "2025/10/13"
+pubDate: "2025-10-08"
+updatedDate: "2025-10-13"
 heroImage: "../../images/publish-school-work/hero-image.avif"
 ---
 
