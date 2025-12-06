@@ -5,12 +5,19 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import rehypeExternalLinks from 'rehype-external-links';
 import remarkToc from 'remark-toc';
-import rehypeMermaid from 'rehype-mermaid';
+import mermaid from 'astro-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://portfolio-4ng.pages.dev',
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mermaid({
+      theme: 'default',
+      autoTheme: true
+    }),
+    mdx(),
+    sitemap(),
+  ],
 
   vite: {
     plugins: [tailwindcss()],
@@ -36,10 +43,6 @@ export default defineConfig({
           content: { type: 'text', value: '↗' }, // 外部リンクアイコン（オプション）
         },
       ],
-      [
-        rehypeMermaid,
-        {}
-      ]
     ],
   },
 });
