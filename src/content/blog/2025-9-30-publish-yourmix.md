@@ -1,5 +1,5 @@
 ---
-title: "Next.jsで制作したレシピ検索ウェブアプリ「YourMix」"
+title: "Next.jsで制作したレシピ生成・検索ウェブアプリ「YourMix」"
 description: "趣味と学習を融合したポートフォリオ作品。カクテルレシピを検索できるWebアプリをNext.jsとCloudflare Workersで構築しました。未完成ながら公開し、今後も改善を重ねていきます。"
 pubDate: "2025/9/30"
 updatedDate: "2025/12/3"
@@ -49,6 +49,9 @@ C4Context
   - Cursor
     - コミットメッセージの下書きをAIに作成してもらえるところは地味に便利です。とはいえいかにもAIくさく、冗長な文章になりがちなので手直しは必須です。この機能も含めてVS Codeが同質化を進めているので、今後が正念場だろうと思います。2.0の評価を見定めたいところです。
     - VS Codeからショートカットキーがいくつか変更されているので戸惑います。
+  - Google Antigravity
+    - Google謹製でありGemini 3の能力をフルに活かせるであろうという安心感もさることながら、比較的緩いレートで使用できるのが嬉しいポイントです。Gemini CLIからの移行も視野に入ります。
+    - Gemini.mdで指定しても基本的に英語でTask・ToDo・Walkthroughを出力してくるので、AIとのコミュニケーションコストがかかりがちなのが難点です。
 - ランタイム：Node.js
 - ホスティング：Cloudflare Workers
   - 当初デプロイに失敗し続けていましたが、[公式ドキュメント](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/)をきちんと読み直したところコマンドからの実行が正解でした。
