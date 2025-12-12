@@ -20,6 +20,7 @@ heroImage: "../../images/publish-school-work/hero-image.avif"
 ### LINEクローンアプリ
 ![LINEクローンアプリのスクリーンショット](../../images/publish-school-work/school-line_clone.avif)
 
+- [公開URL](https://lineclone-a156c.web.app/)
 - [Githubリポジトリ](https://github.com/hndyu/school-line_clone)
 
 Firebaseを採用し、Googleアカウントでのログイン機能やFirestore Databaseへの読み書きを実装した、LINE風の双方向メッセージアプリです。デプロイ先もFirebase Hostingにしています。
