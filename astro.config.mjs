@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 import rehypeExternalLinks from 'rehype-external-links';
 import remarkToc from 'remark-toc';
 import mermaid from 'astro-mermaid';
+import astroBrokenLinksChecker from 'astro-broken-link-checker';
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +18,11 @@ export default defineConfig({
     }),
     mdx(),
     sitemap(),
+    astroBrokenLinksChecker({
+      logFilePath: 'broken-links.log', // Optional: specify the log file path
+      checkExternalLinks: false, // Optional: check external links (currently, caching to disk is not supported, and it is slow)
+      throwError: true // Optional: throw an error to fail the build if broken links are found. Defaults to false.
+    }),
   ],
 
   vite: {
