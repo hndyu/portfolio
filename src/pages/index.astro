@@ -5,8 +5,7 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import IndexCard from "../components/IndexCard.astro";
 import screenshotYourmix from "../images/screenshot-yourmix.avif";
-import screenshotRetirement from "../images/screenshot-retirement-consulting-lp.avif";
-import schoolWorkHero from "../images/publish-school-work/hero-image.avif";
+import screenshotMonologLive from "../images/screenshot-monolog-live.avif";
 ---
 
 <!doctype html>
@@ -25,6 +24,13 @@ import schoolWorkHero from "../images/publish-school-work/hero-image.avif";
           url_public="https://yourmix.hndyu.workers.dev/"
           url_github="https://github.com/hndyu/yourmix"
           url_blog="/blog/2025-9-30-publish-yourmix/"
+        />
+        <IndexCard
+          name="ライブ配信風音声会話サービス"
+          img={screenshotMonologLive}
+          url_public="https://monolog-live.hndyu.workers.dev/"
+          url_github="https://github.com/hndyu/MonologLive"
+          url_blog="/blog/2026-2-5-publish-monolog-live/"
         />
       </ul>
       <Footer />
